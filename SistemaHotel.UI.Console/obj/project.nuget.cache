@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ucbOe4jfEpY=",
+  "dgSpecHash": "y82Z1RZdL7o=",
   "success": true,
-  "projectFilePath": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.UI.Console\\SistemaHotel.UI.Console.csproj",
+  "projectFilePath": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.UI.Console\\SistemaHotel.UI.Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.10\\microsoft.data.sqlite.core.8.0.10.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.10\\microsoft.entityframeworkcore.8.0.10.nupkg.sha512",

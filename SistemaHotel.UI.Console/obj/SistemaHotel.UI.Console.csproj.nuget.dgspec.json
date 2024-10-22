@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.UI.Console\\SistemaHotel.UI.Console.csproj": {}
+    "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.UI.Console\\SistemaHotel.UI.Console.csproj": {}
   },
   "projects": {
-    "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.Persistenia.EFCore\\SistemaHotel.Persistenia.EFCore.csproj": {
+    "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.Persistenia.EFCore\\SistemaHotel.Persistenia.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.Persistenia.EFCore\\SistemaHotel.Persistenia.EFCore.csproj",
+        "projectUniqueName": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.Persistenia.EFCore\\SistemaHotel.Persistenia.EFCore.csproj",
         "projectName": "SistemaHotel.Persistenia.EFCore",
-        "projectPath": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.Persistenia.EFCore\\SistemaHotel.Persistenia.EFCore.csproj",
+        "projectPath": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.Persistenia.EFCore\\SistemaHotel.Persistenia.EFCore.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.Persistenia.EFCore\\obj\\",
+        "outputPath": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.Persistenia.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,11 +25,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj": {
-                "projectPath": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -88,14 +84,14 @@
         }
       }
     },
-    "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.UI.Console\\SistemaHotel.UI.Console.csproj": {
+    "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.UI.Console\\SistemaHotel.UI.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.UI.Console\\SistemaHotel.UI.Console.csproj",
+        "projectUniqueName": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.UI.Console\\SistemaHotel.UI.Console.csproj",
         "projectName": "SistemaHotel.UI.Console",
-        "projectPath": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.UI.Console\\SistemaHotel.UI.Console.csproj",
+        "projectPath": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.UI.Console\\SistemaHotel.UI.Console.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.UI.Console\\obj\\",
+        "outputPath": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.UI.Console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -110,11 +106,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.Persistenia.EFCore\\SistemaHotel.Persistenia.EFCore.csproj": {
-                "projectPath": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.Persistenia.EFCore\\SistemaHotel.Persistenia.EFCore.csproj"
+              "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.Persistenia.EFCore\\SistemaHotel.Persistenia.EFCore.csproj": {
+                "projectPath": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.Persistenia.EFCore\\SistemaHotel.Persistenia.EFCore.csproj"
               },
-              "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj": {
-                "projectPath": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj"
+              "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj": {
+                "projectPath": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj"
               }
             }
           }
@@ -153,14 +149,14 @@
         }
       }
     },
-    "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj": {
+    "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj",
+        "projectUniqueName": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj",
         "projectName": "SistemaHotel.Modelo",
-        "projectPath": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj",
+        "projectPath": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel\\obj\\",
+        "outputPath": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"

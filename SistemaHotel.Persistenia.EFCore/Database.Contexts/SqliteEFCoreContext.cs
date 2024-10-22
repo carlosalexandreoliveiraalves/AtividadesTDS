@@ -18,7 +18,7 @@ public class SqliteEFCoreContext : DbContext
     // public string DbPath { get; }$"Data Source=C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.Persistencia.EFCore\\SistemaHotel.db"
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
-        => options.UseSqlite($"Data Source=../SistemaHotel.Persistenia.EFCore/SistemaHotel.db");
+        => options.UseSqlite($"Data Source=../SistemaHotel.Persistenia.EFCore/SistemaHotel.db"); 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);

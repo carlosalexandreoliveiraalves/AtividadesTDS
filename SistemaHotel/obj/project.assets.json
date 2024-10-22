@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj",
+      "projectUniqueName": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj",
       "projectName": "SistemaHotel.Modelo",
-      "projectPath": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj",
+      "projectPath": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel\\obj\\",
+      "outputPath": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"

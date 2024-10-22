@@ -453,8 +453,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.10",
-          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10",
-          "SistemaHotel.Modelo": "1.0.0"
+          "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10"
         },
         "compile": {
           "bin/placeholder/SistemaHotel.Persistenia.EFCore.dll": {}
@@ -1074,11 +1073,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.UI.Console\\SistemaHotel.UI.Console.csproj",
+      "projectUniqueName": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.UI.Console\\SistemaHotel.UI.Console.csproj",
       "projectName": "SistemaHotel.UI.Console",
-      "projectPath": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.UI.Console\\SistemaHotel.UI.Console.csproj",
+      "projectPath": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.UI.Console\\SistemaHotel.UI.Console.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.UI.Console\\obj\\",
+      "outputPath": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.UI.Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1093,11 +1092,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.Persistenia.EFCore\\SistemaHotel.Persistenia.EFCore.csproj": {
-              "projectPath": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel.Persistenia.EFCore\\SistemaHotel.Persistenia.EFCore.csproj"
+            "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.Persistenia.EFCore\\SistemaHotel.Persistenia.EFCore.csproj": {
+              "projectPath": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel.Persistenia.EFCore\\SistemaHotel.Persistenia.EFCore.csproj"
             },
-            "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj": {
-              "projectPath": "C:\\Área de Trabalho\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj"
+            "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj": {
+              "projectPath": "C:\\Área de Trabalho\\TDS2024\\Projeto_Tds\\SistemaHotel\\SistemaHotel.Modelo.csproj"
             }
           }
         }
