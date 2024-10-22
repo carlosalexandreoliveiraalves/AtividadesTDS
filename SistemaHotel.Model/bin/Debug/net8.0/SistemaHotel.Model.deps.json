@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SistemaHotel.Model/1.0.0": {
+        "runtime": {
+          "SistemaHotel.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SistemaHotel.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

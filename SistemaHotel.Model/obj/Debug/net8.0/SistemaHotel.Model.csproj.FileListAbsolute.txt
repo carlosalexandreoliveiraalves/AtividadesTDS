@@ -1,0 +1,11 @@
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.Model\bin\Debug\net8.0\SistemaHotel.Model.deps.json
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.Model\bin\Debug\net8.0\SistemaHotel.Model.dll
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.Model\bin\Debug\net8.0\SistemaHotel.Model.pdb
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.Model\obj\Debug\net8.0\SistemaHotel.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.Model\obj\Debug\net8.0\SistemaHotel.Model.AssemblyInfoInputs.cache
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.Model\obj\Debug\net8.0\SistemaHotel.Model.AssemblyInfo.cs
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.Model\obj\Debug\net8.0\SistemaHotel.Model.csproj.CoreCompileInputs.cache
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.Model\obj\Debug\net8.0\SistemaHotel.Model.dll
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.Model\obj\Debug\net8.0\refint\SistemaHotel.Model.dll
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.Model\obj\Debug\net8.0\SistemaHotel.Model.pdb
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.Model\obj\Debug\net8.0\ref\SistemaHotel.Model.dll

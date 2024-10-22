@@ -1,0 +1,17 @@
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\bin\Debug\net8.0\SistemaHotel.EFCore.deps.json
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\bin\Debug\net8.0\SistemaHotel.EFCore.runtimeconfig.json
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\bin\Debug\net8.0\SistemaHotel.EFCore.dll
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\bin\Debug\net8.0\SistemaHotel.EFCore.pdb
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\bin\Debug\net8.0\SistemaHotel.Model.dll
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\bin\Debug\net8.0\SistemaHotel.Model.pdb
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\obj\Debug\net8.0\SistemaHotel.EFCore.csproj.AssemblyReference.cache
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\obj\Debug\net8.0\SistemaHotel.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\obj\Debug\net8.0\SistemaHotel.EFCore.AssemblyInfoInputs.cache
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\obj\Debug\net8.0\SistemaHotel.EFCore.AssemblyInfo.cs
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\obj\Debug\net8.0\SistemaHotel.EFCore.csproj.CoreCompileInputs.cache
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\obj\Debug\net8.0\SistemaH.2F54418B.Up2Date
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\obj\Debug\net8.0\SistemaHotel.EFCore.dll
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\obj\Debug\net8.0\refint\SistemaHotel.EFCore.dll
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\obj\Debug\net8.0\SistemaHotel.EFCore.pdb
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\obj\Debug\net8.0\SistemaHotel.EFCore.genruntimeconfig.cache
+C:\Área de Trabalho\TDS2024\SistemaHotel.WebAPI\SistemaHotel.EFCore\obj\Debug\net8.0\ref\SistemaHotel.EFCore.dll

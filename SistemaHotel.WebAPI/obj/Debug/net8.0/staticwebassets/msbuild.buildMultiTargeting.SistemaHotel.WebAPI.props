@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SistemaHotel.WebAPI.props" />
+</Project>
