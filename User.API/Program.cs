@@ -1,7 +1,21 @@
 using Microsoft.EntityFrameworkCore;
+using Solucao.Models;
 using Solucao.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.WithOrigins("http://localhost:5290") // URL do frontend Blazor
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
+});
+
+
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -9,6 +23,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<EFCoreContext>(options => options.UseSqlite(
     builder.Configuration.GetConnectionString("DefaultConnection")
 ));
+
+
+
 
 
 var app = builder.Build();
@@ -28,6 +45,13 @@ app.MapGet("/api/users", async(EFCoreContext context) =>
 }
 );
 
+app.MapPost("/api/users", async (EFCoreContext context, UserModel user) =>
+{
+    context.Users.Add(user);
+    await context.SaveChangesAsync();
+    return Results.Created($"/api/categories/{user.UserID}", user);
+});
+
 // app.MapGet("/weatherforecast", () =>
 // {
 //     var forecast =  Enumerable.Range(1, 5).Select(index =>
@@ -42,5 +66,7 @@ app.MapGet("/api/users", async(EFCoreContext context) =>
 // })
 // .WithName("GetWeatherForecast")
 // .WithOpenApi();
+
+app.UseCors();
 
 app.Run();

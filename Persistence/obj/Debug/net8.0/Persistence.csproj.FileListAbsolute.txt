@@ -15,3 +15,4 @@ C:\Área de Trabalho\TDS2024\solucao\Persistence\obj\Debug\net8.0\refint\Persist
 C:\Área de Trabalho\TDS2024\solucao\Persistence\obj\Debug\net8.0\Persistence.pdb
 C:\Área de Trabalho\TDS2024\solucao\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
 C:\Área de Trabalho\TDS2024\solucao\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Área de Trabalho\TDS2024\solucao\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json

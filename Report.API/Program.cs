@@ -1,7 +1,20 @@
 using Microsoft.EntityFrameworkCore;
+using Solucao.Models;
 using Solucao.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.WithOrigins("http://localhost:5290") // URL do frontend Blazor
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
+});
+
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -28,6 +41,15 @@ app.MapGet("/api/reports", async(EFCoreContext context) =>
 }
 );
 
+
+app.MapPost("/api/reports", async (EFCoreContext context, ReportModel report) =>
+{
+    context.Reports.Add(report);
+    await context.SaveChangesAsync();
+    return Results.Created($"/api/categories/{report.ReportID}", report);
+});
+
+
 // app.MapGet("/weatherforecast", () =>
 // {
 //     var forecast =  Enumerable.Range(1, 5).Select(index =>
@@ -42,5 +64,8 @@ app.MapGet("/api/reports", async(EFCoreContext context) =>
 // })
 // .WithName("GetWeatherForecast")
 // .WithOpenApi();
+
+app.UseCors();
+
 
 app.Run();

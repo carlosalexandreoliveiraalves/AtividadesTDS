@@ -1,0 +1,75 @@
+@page "/cadastro-relatorio"
+@using Solucao.Models
+@inject HttpClient Http
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h3 class="text-center mb-4">Gerar Relatório</h3>
+
+            @if (!string.IsNullOrEmpty(mensagem))
+            {
+                <div class="alert @(sucesso ? "alert-success" : "alert-danger")" role="alert">
+                    @mensagem
+                </div>
+            }
+
+            <EditForm Model="@report" OnValidSubmit="EnviarRelatorio">
+                <DataAnnotationsValidator />
+                <ValidationSummary class="text-danger" />
+
+                <div class="mb-3">
+                    <label for="quarto" class="form-label">Total de quartos:</label>
+                    <InputNumber id="quarto" @bind-Value="report.TotalRoom" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="reserva" class="form-label">Total de reservas:</label>
+                    <InputNumber id="reserva" @bind-Value="report.TotalReserve" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="lucro" class="form-label">Lucro total:</label>
+                    <InputNumber id="lucro" @bind-Value="report.Profit" class="form-control" />
+                </div>
+
+
+
+                <button type="submit" class="btn btn-primary w-100">Enviar</button>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+
+
+@code {
+    private ReportModel report = new ReportModel();
+    private string mensagem = string.Empty;
+    private bool sucesso = true; // controla o estilo da mensagem (sucesso ou erro)
+
+    private async Task EnviarRelatorio()
+    {
+        try
+        {
+            var response = await Http.PostAsJsonAsync("api/reports", report);
+
+            if (response.IsSuccessStatusCode)
+            {
+                mensagem = "Usuário cadastrado com sucesso!";
+                sucesso = true; // exibe a mensagem de sucesso
+                report = new ReportModel(); // limpa o formulário
+            }
+            else
+            {
+                mensagem = "Erro ao cadastrar usuário.";
+                sucesso = false; // exibe a mensagem de erro
+            }
+        }
+        catch (Exception ex)
+        {
+            mensagem = $"Erro na requisição: {ex.Message}";
+            sucesso = false;
+        }
+    }
+}

@@ -17,7 +17,7 @@ public class EFCoreContext : DbContext
     }
 
 
-    public DbSet<ReportModel> Reserves { get; set; }
+    public DbSet<ReserveModel> Reserves { get; set; }
     public DbSet<ReportModel> Reports { get; set; }
     public DbSet<RoomModel> Rooms { get; set; }
     public DbSet<UserModel> Users { get; set; }

@@ -136,3 +136,4 @@ C:\Área de Trabalho\TDS2024\solucao\User.API\obj\Debug\net8.0\refint\User.API.d
 C:\Área de Trabalho\TDS2024\solucao\User.API\obj\Debug\net8.0\User.API.pdb
 C:\Área de Trabalho\TDS2024\solucao\User.API\obj\Debug\net8.0\User.API.genruntimeconfig.cache
 C:\Área de Trabalho\TDS2024\solucao\User.API\obj\Debug\net8.0\ref\User.API.dll
+C:\Área de Trabalho\TDS2024\solucao\User.API\obj\Debug\net8.0\User.API.sourcelink.json

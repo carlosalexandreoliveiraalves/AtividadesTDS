@@ -18,6 +18,11 @@ public class ReportModel
         Profit = profit;
     }
 
+    public ReportModel()
+    {
+        
+    }
+
     //public ReportModel() {}
     public override string ToString() {
         return $"[{ReportID}, {TotalRoom}, {TotalReserve}, {Profit}]";

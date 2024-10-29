@@ -136,3 +136,4 @@ C:\Área de Trabalho\TDS2024\solucao\Report.API\obj\Debug\net8.0\refint\Report.A
 C:\Área de Trabalho\TDS2024\solucao\Report.API\obj\Debug\net8.0\Report.API.pdb
 C:\Área de Trabalho\TDS2024\solucao\Report.API\obj\Debug\net8.0\Report.API.genruntimeconfig.cache
 C:\Área de Trabalho\TDS2024\solucao\Report.API\obj\Debug\net8.0\ref\Report.API.dll
+C:\Área de Trabalho\TDS2024\solucao\Report.API\obj\Debug\net8.0\Report.API.sourcelink.json
